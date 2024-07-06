@@ -7,141 +7,91 @@
 }
 
 .page{
-  border: 10px solid yellow;
+  border: 5px solid yellow;
   width: 1280px;
+  margin:auto;
 }
  
-  
-
-
-.section {
- 
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  flex-direction: row;
-  align-items: start;
+.section{
+  border: 1px solid rgb(255, 0, 17);
   padding: 38px 105px;
-  border-bottom: 3px solid #CCCCCC;
-
-}
-
-.section__head{
-  background-color:aqua;
-  width: 100%;
-}
-
-.card{
   display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
-  justify-content:flex-start;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 .logo{
-
+  width: fit-content;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
   align-items: center;
-  justify-content:flex-start;
-  gap:1rem;
-  }
-  
+}
 .logo__img{
-  
-      width: 55px;
-      height: 55px;
-      top: 38px;
-      left: 109px;
-      border-radius: 10px;
+  width: 55px;
+  height: 55px;
+  border-radius: 10px;
 }
 
-.logo__title{
-  font-size:24px ;
+.logo__text{
   font-weight: 700;
-}
+  font-size: 24px;
 
-.logo__img--adl{
+
+}
+.logo__img--xsmall{
+  border-radius: 50%;
   width: 40px;
   height: 40px;
-  border-radius: 50%;
 }
 
-.logo__title--adl{
+.logo__text--xsmall{
   font-weight: 400;
-  font-size: 24px;
-}
-.logo__img--small{
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-}
-.logo__title--small{
-  font-weight: 400;
-}
-
-
-
-.card__content{
-  gap:10px;
-  padding-left: 20px;
- 
-
-}
-
-.card__img{
-  border-radius: 20px;
-  width: 603px;
-  height: 314px;
-  object-fit:cover;
-
-}
-.card__date{
-  font-weight: 400;
-  font-size: 18px;
-}
-
-.card__description{
-  font-weight: 600;
-  font-size: 24px;
-}
-
-.col{
-  border: 3px solid rgb(7, 14, 112);
-}
-
-.card__img--aside{
-  width: 189px;
-  height: 145px;
- 
-}
-
-.card__date--aside{
   font-size: 16px;
 }
-.card__description--aside{
-  font-size: 20px;
+
+.colum{
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
 }
 
-.card--horizontal{
-flex-direction: row;
+.colum__cabecera{
+  font-weight: 700;
+  font-size: 28px;
+  width: 100%;
+  border: 1px solid rgb(0, 255, 229);
   
 }
 
-.section--footer{
+.logo__img--small{
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
 
+.logo__text{
+  font-weight: 500;
+  font-size: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.section__text-footer{
+  font-weight: 400;
+  font-size: 20px;
+}
+.section--footer{
+  flex-direction: row;
   align-items: center;
+  justify-content: space-between;
 }
 
