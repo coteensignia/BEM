@@ -6,7 +6,7 @@
   font-family: Poppins;
 }
 
-.container{
+.page{
   border: 10px solid yellow;
   width: 1280px;
 }
@@ -14,7 +14,8 @@
   
 
 
-.row {
+.section {
+ 
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -25,6 +26,12 @@
   border-bottom: 3px solid #CCCCCC;
 
 }
+
+.section__head{
+  background-color:aqua;
+  width: 100%;
+}
+
 .card{
   display: flex;
   flex-direction: column;
@@ -37,10 +44,7 @@
 
 
 
-.row--footer{
 
-  align-items: center;
-}
 
 
 
@@ -134,5 +138,10 @@
 .card--horizontal{
 flex-direction: row;
   
+}
+
+.section--footer{
+
+  align-items: center;
 }
 
