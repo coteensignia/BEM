@@ -7,7 +7,7 @@
 }
 
 .page{
-  border: 5px solid yellow;
+
   width: 1280px;
   margin:auto;
 }
@@ -16,6 +16,7 @@
   border-bottom: 3px solid #CCCCCC;
   padding: 38px 105px;
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
 }
 
@@ -44,8 +45,8 @@
 .colum{
 display: flex;
 flex-wrap: wrap;
-flex-direction: row;
 gap: 0px 56px;
+
 
 }
 
@@ -121,6 +122,7 @@ width: 187px;
   flex-direction: column;
   flex-wrap: wrap;
   gap: 32px;
+
 }
 
 
@@ -128,7 +130,89 @@ width: 187px;
   gap:13px;
 }
 
+/* section2 */
 
+
+
+
+
+.colum--populares{
+  width: 700px;
+
+  align-content: flex-start;
+}
+
+.colum--categorias{
+  width: 300px;
+  align-content: flex-start;
+  
+  
+}
+
+.card__img--pop{
+  width: 298px;
+height: 200px;
+object-fit:cover;
+
+
+}
+
+.card-mini{
+  width: 298px;
+  gap: 0;
+  margin-bottom: 40px;
+  
+  
+}
+
+.card__description--size{
+  height:80px ;
+  
+}
+
+
+
+.btn{
+  color: #fff;
+  display: flex;
+  align-items: center;
+  width: 298px;
+height: 89px; 
+  border-radius: 10px;
+background: #E93E30;
+justify-content:space-between;
+ padding: 22px;
+}
+
+.btn__img{
+  width: 85px;
+height: 74px; 
+object-fit: cover;
+}
+.btn__text{
+  font-size: 32px;
+font-weight: 700; 
+}
+
+.btn--js{
+  background: #F7E018; 
+}
+
+.btn--css{
+  background: #299ED5; 
+}
+
+.btn--react{
+  background: #292C33;
+}
+
+.btn--vue{
+  background: #67C770;  
+}
+
+.btn--bootstrap{
+  background: #563D7C; 
+}
 
 
 /* / footer/ */
@@ -137,6 +221,8 @@ width: 187px;
   align-items: center;
   display: flex;
   justify-content:space-between;
+  padding: 38px 105px;
+  
 }
 
 .section__text-footer{
@@ -157,4 +243,3 @@ width: 187px;
   font-weight: 400;
   font-size: 16px;
 }
-
