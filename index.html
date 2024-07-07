@@ -10,11 +10,7 @@
   <!-- google fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet">
-
-
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -23,186 +19,156 @@
 
     <header class="section">
       <div class="logo">
-        <img class="logo__img" src="assets/img/logos/adl.png" alt="">
+        <img class="logo__img" src="assets/img/logos/adl.png" alt="Logo del Blog FrontEnd">
         <h1 class="logo__text">Blog FrontEnd</h1>
       </div>
-
     </header>
 
-    <div class="section">
+    <section class="section">
       <div class="colum">
-
         <h2 class="colum__cabecera">Novedades</h2>
 
-
-        <div class="colum__group">
+        <article class="colum__group">
           <div class="card">
-            <img class="card__img" src="assets/img/posts/bootstrap.png" alt="">
+            <img class="card__img" src="assets/img/posts/bootstrap.png" alt="Imagen del artículo sobre Bootstrap">
             <p class="card__date">24 Noviembre, 2022</p>
             <h2 class="card__description">Modifica el tema de Bootstrap con variables CSS</h2>
             <div class="logo">
-              <img class="logo__img--small " src="assets/img/logos/adl.png" alt="">
+              <img class="logo__img--small" src="assets/img/logos/adl.png" alt="Logo pequeño">
               <h3 class="logo__text">Blog FrontEnd</h3>
             </div>
-
           </div>
-        </div>
+        </article>
 
-        <div class="colum__group">
+        <article class="colum__group">
           <div class="card card--aside">
-            <img class="card__img card__img--img-aside" src="assets/img/posts/Herencia-JS.png" alt="">
+            <img class="card__img card__img--img-aside" src="assets/img/posts/Herencia-JS.png" alt="Imagen del artículo sobre Herencia en JS">
             <div class="card__group">
               <p class="card__date card__date--text-aside">24 Noviembre, 2022</p>
               <h2 class="card__description card__description--text-aside">Herencia en JavaScript</h2>
               <div class="logo logo--logo-xs">
-                <img class="logo__img--xsmall " src="assets/img/logos/adl.png" alt="">
+                <img class="logo__img--xsmall" src="assets/img/logos/adl.png" alt="Logo pequeño">
                 <p class="logo__text--xsmall">Desafío Latam</p>
               </div>
             </div>
           </div>
 
           <div class="card card--aside">
-            <img class="card__img card__img--img-aside" src="assets/img/posts/Etiquetas-semánticas-HTML.png" alt="">
+            <img class="card__img card__img--img-aside" src="assets/img/posts/Etiquetas-semánticas-HTML.png" alt="Imagen del artículo sobre Etiquetas Semánticas">
             <div class="card__group">
               <p class="card__date card__date--text-aside">24 Noviembre, 2022</p>
               <h2 class="card__description card__description--text-aside">Etiquetas semánticas</h2>
               <div class="logo logo--logo-xs">
-                <img class="logo__img--xsmall " src="assets/img/logos/adl.png" alt="">
+                <img class="logo__img--xsmall" src="assets/img/logos/adl.png" alt="Logo pequeño">
                 <p class="logo__text--xsmall">Desafío Latam</p>
               </div>
             </div>
           </div>
 
           <div class="card card--aside">
-            <img class="card__img card__img--img-aside" src="assets/img/posts/reactComponents.png" alt="">
+            <img class="card__img card__img--img-aside" src="assets/img/posts/reactComponents.png" alt="Imagen del artículo sobre Componentes en React">
             <div class="card__group">
               <p class="card__date card__date--text-aside">24 Noviembre, 2022</p>
               <h2 class="card__description card__description--text-aside">Componentes React</h2>
               <div class="logo logo--logo-xs">
-                <img class="logo__img--xsmall " src="assets/img/logos/adl.png" alt="">
+                <img class="logo__img--xsmall" src="assets/img/logos/adl.png" alt="Logo pequeño">
                 <p class="logo__text--xsmall">Desafío Latam</p>
               </div>
             </div>
           </div>
-
-
-
-        </div>
+        </article>
       </div>
-    </div>
+    </section>
 
+    <!-- Segunda sección -->
+    <section class="section">
+      <aside class="colum colum--populares">
+        <h2 class="colum__cabecera">Populares</h2>
 
+        <article class="card card-mini">
+          <img class="card__img card__img--pop" src="assets/img/posts/vue-components.png" alt="Imagen del artículo sobre Componentes en Vue">
+          <p class="card__date">24 Noviembre, 2022</p>
+          <h2 class="card__description card__description--size">Componentes Vue</h2>
+          <div class="logo logo--logo-xs">
+            <img class="logo__img--xsmall" src="assets/img/logos/adl.png" alt="Logo pequeño">
+            <p class="logo__text--xsmall">Desafío Latam</p>
+          </div>
+        </article>
 
-   <!-- segunda secction -->
+        <article class="card card-mini">
+          <img class="card__img card__img--pop" src="assets/img/posts/api-js.png" alt="Imagen del artículo sobre Consumo de API con JS">
+          <p class="card__date">24 Noviembre, 2022</p>
+          <h2 class="card__description card__description--size">Consumo de API con JavaScript</h2>
+          <div class="logo logo--logo-xs">
+            <img class="logo__img--xsmall" src="assets/img/logos/adl.png" alt="Logo pequeño">
+            <p class="logo__text--xsmall">Desafío Latam</p>
+          </div>
+        </article>
 
-   <div class="section">
-  
-    <div class="colum colum--populares">
-    
-      <h2 class="colum__cabecera">Populares</h2>
+        <article class="card card-mini">
+          <img class="card__img card__img--pop" src="assets/img/posts/sass.jpg" alt="Imagen del artículo sobre SASS">
+          <p class="card__date">24 Noviembre, 2022</p>
+          <h2 class="card__description card__description--size">Componentes Vue</h2>
+          <div class="logo logo--logo-xs">
+            <img class="logo__img--xsmall" src="assets/img/logos/adl.png" alt="Logo pequeño">
+            <p class="logo__text--xsmall">Desafío Latam</p>
+          </div>
+        </article>
 
-      <div class="card card-mini">
-        <img class="card__img card__img--pop" src="assets/img/posts/vue-components.png" alt="">
-        <p class="card__date">24 Noviembre, 2022</p>
-        <h2 class="card__description card__description--size">Componentes Vue</h2>
-        <div class="logo logo--logo-xs">
-          <img class="logo__img--xsmall " src="assets/img/logos/adl.png" alt="">
-          <p class="logo__text--xsmall">Desafío Latam</p>
+        <article class="card card-mini">
+          <img class="card__img card__img--pop" src="assets/img/posts/bootstrap.png" alt="Imagen del artículo sobre Bootstrap">
+          <p class="card__date">24 Noviembre, 2022</p>
+          <h2 class="card__description card__description--size">Componentes Vue</h2>
+          <div class="logo logo--logo-xs">
+            <img class="logo__img--xsmall" src="assets/img/logos/adl.png" alt="Logo pequeño">
+            <p class="logo__text--xsmall">Desafío Latam</p>
+          </div>
+        </article>
+      </aside>
+
+      <aside class="colum colum--categorias">
+        <h2 class="colum__cabecera">Categorías</h2>
+        <div class="colum__group">
+          <div class="btn">
+            <img class="btn__img" src="assets/img/logos/html.png" alt="Logo de HTML">
+            <h2 class="btn__text">HTML</h2>
+          </div>
+          <div class="btn btn--js">
+            <img class="btn__img" src="assets/img/logos/js.png" alt="Logo de JavaScript">
+            <h2 class="btn__text">JavaScript</h2>
+          </div>
+          <div class="btn btn--css">
+            <img class="btn__img" src="assets/img/logos/css.png" alt="Logo de CSS">
+            <h2 class="btn__text">CSS</h2>
+          </div>
+          <div class="btn btn--react">
+            <img class="btn__img" src="assets/img/logos/react.png" alt="Logo de React">
+            <h2 class="btn__text">React</h2>
+          </div>
+          <div class="btn btn--vue">
+            <img class="btn__img" src="assets/img/logos/vue.png" alt="Logo de Vue">
+            <h2 class="btn__text">Vue</h2>
+          </div>
+          <div class="btn btn--bootstrap">
+            <img class="btn__img" src="assets/img/logos/bootstrap-logo.png" alt="Logo de Bootstrap">
+            <h2 class="btn__text">Bootstrap</h2>
+          </div>
+
+          <p class="colum__text">Ver todas las categorías</p>
         </div>
-      </div>
-      <div class="card card-mini">
-        <img class="card__img card__img--pop" src="assets/img/posts/api-js.png" alt="">
-        <p class="card__date">24 Noviembre, 2022</p>
-        <h2 class="card__description card__description--size">Consumo de API con JavaScript</h2>
-        <div class="logo logo--logo-xs">
-          <img class="logo__img--xsmall " src="assets/img/logos/adl.png" alt="">
-          <p class="logo__text--xsmall">Desafío Latam</p>
-        </div>
-      </div>
-      <div class="card card-mini">
-        <img class="card__img card__img--pop" src="assets/img/posts/sass.jpg" alt="">
-        <p class="card__date">24 Noviembre, 2022</p>
-        <h2 class="card__description card__description--size">Componentes Vue</h2>
-        <div class="logo logo--logo-xs">
-          <img class="logo__img--xsmall " src="assets/img/logos/adl.png" alt="">
-          <p class="logo__text--xsmall">Desafío Latam</p>
-        </div>
-      </div>
-      <div class="card card-mini">
-        <img class="card__img card__img--pop" src="assets/img/posts/bootstrap.png" alt="">
-        <p class="card__date">24 Noviembre, 2022</p>
-        <h2 class="card__description card__description--size ">Componentes Vue</h2>
-        <div class="logo logo--logo-xs">
-          <img class="logo__img--xsmall " src="assets/img/logos/adl.png" alt="">
-          <p class="logo__text--xsmall">Desafío Latam</p>
-        </div>
-      </div>
-
-
-    </div>
-
-    <div class="colum colum--categorias">
-      <h2 class="colum__cabecera">Categorías</h2>
-      <div class="colum__group">
-          
-
-
-        <div class="btn">
-          <img class="btn__img" src="assets/img/logos/html.png" alt="">
-          <h2 class="btn__text">HTML</h2>
-        </div>
-        <div class="btn btn--js">
-          <img class="btn__img " src="assets/img/logos/js.png" alt="">
-          <h2 class="btn__text">JavaScript</h2>
-        </div>
-        <div class="btn btn--css">
-          <img class="btn__img" src="assets/img/logos/css.png" alt="">
-          <h2 class="btn__text">CSS</h2>
-        </div>
-        <div class="btn btn--react">
-          <img class="btn__img" src="assets/img/logos/react.png" alt="">
-          <h2 class="btn__text">React</h2>
-        </div>
-        <div class="btn btn--vue">
-          <img class="btn__img" src="assets/img/logos/vue.png" alt="">
-          <h2 class="btn__text">Vue</h2>
-        </div>
-        <div class="btn btn--bootstrap">
-          <img class="btn__img" src="assets/img/logos/bootstrap-logo.png" alt="">
-          <h2 class="btn__text">Bootstrap</h2>
-        </div>
-    
-        <p class="colum__text">Ver todas las categorías</p>
-    
-    </div>
-    
-    </div>
-  </div>
-    
-
-
-
-
-
-
+      </aside>
+    </section>
 
     <footer class="footer">
-      
       <div class="logo">
-        <img class="logo__img" src="assets/img/logos/adl.png" alt="">
+        <img class="logo__img" src="assets/img/logos/adl.png" alt="Logo del Blog FrontEnd">
         <h1 class="logo__text">Blog FrontEnd</h1>
       </div>
-      <p class="footer__text"> Desafío Latam - 2023</p>
+      <p class="footer__text">Desafío Latam - 2023</p>
     </footer>
-
-
-
-
-
   </main>
-
-
 
 </body>
 
 </html>
+
